@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Strona na divach</title>
+    </head>
+    <body style="background-color: grey;">
+        <div id="container" style="width: 100%; height: 100%;">
+
+            <div="header" style="background-color: #FFA500; height: 10%;">
+                <h1 style="margin-bottom: 0;">Main Title of Web Page</h1>
+            </div>
+
+            <div id="menu" style="background-color: #FFD700; height: 200px; width: 100px; float: left; width: 20%; height: 80%;">
+                <b>Menu</b><br>
+                HTML <br>
+                CSS <br>
+                JavaScript
+            </div>
+
+            <div id="content" style="background-color: #EEEEEE; height: 200px; width: 400px; float: left; width: 80%; height: 80%;">
+                Formularz 1 <br>
+                <form action="" method="POST">
+                    <input type="hidden" name="to" value="adres@email">
+                    <input type="hidden" name="subject" value="Temat wiadomości">
+                    Imię: <input type="text"> <br>
+                    E-mail: <input type="text"> <br>
+                    Komentarz: <br> <textarea name="textar" id="" cols="30" rows="5"></textarea> <br>
+                    <input type="submit" value="Wyślij"> <br>
+                    <input type="reset" value="Wyczyść">
+                </form>
+                <br>
+                Formularz 2 <br>
+                <form action="" method="post">
+                    <input type="hidden" name="to" value="adres@email">
+                    <input type="hidden" name="subject" value="Temat wiadomości">
+                    <input type="text"> Podaj swoje imię <br>
+                    <input type="text"> Podaj swoje nazwisko <br> <br>
+                    Podaj swoją płeć <br>
+                    <input type="radio" id="kob" name="gender"> <label for="kob">Kobieta</label>
+                    <input type="radio" id="mez" name="gender"> <label for="mez">Mężczyzna</label> <br> <br>
+                    Ile masz lat <br>
+                    <input type="radio" id="op1" name="wiek"> <label for="op1">mniej niż 15</label> <br>
+                    <input type="radio" id="op2" name="wiek"> <label for="op2">15-19</label> <br>
+                    <input type="radio" id="op3" name="wiek"> <label for="op3">20-29</label> <br>
+                    <input type="radio" id="op4" name="wiek"> <label for="op4">30-39</label> <br>
+                    <input type="radio" id="op5" name="wiek"> <label for="op5">40-60</label> <br>
+                    <input type="radio" id="op6" name="wiek"> <label for="op6">Więcej niż 60</label> <br> <br>
+                    Jaką lubisz muzykę (możesz zaznaczyć więcej możliwości) <br>
+                    <input type="checkbox" id="muz1" name="muzyka"> <label for="muz1">Rock</label> <br>
+                    <input type="checkbox" id="muz2" name="muzyka"> <label for="muz2">Heavy Metal</label> <br>
+                    <input type="checkbox" id="muz3" name="muzyka"> <label for="muz3">Pop</label> <br>
+                    <input type="checkbox" id="muz4" name="muzyka"> <label for="muz4">Techno</label> <br>
+                    <input type="checkbox" id="muz5" name="muzyka"> <label for="muz5">Muzyka poważna</label> <br>
+                    <input type="checkbox" id="muz6" name="muzyka"> <label for="muz6">Inna (podaj jaka):</label> 
+                    <input type="text" name="" id="M_inna"> <br> <br>
+                    Jakiej przeglądarki internetowej używasz? <br>
+                    <select name="nazwa" id="">
+                        <option value="">Internet Explorer</option>
+                        <option value="">Mozilla Firefox</option>
+                        <option value="">Google Chrome</option>
+                    </select> <br> <br>
+                    Jakie znasz systemy operacyjne (możesz wybrać kilka opcji trzymając klawisz Ctrl) <br>
+                    <select name="nazwa2" id="" size="3" multiple>
+                        <option value="">Dos</option>
+                        <option value="">Windows</option>
+                        <option value="">Linux</option>
+                    </select> <br> <br>
+                    Podaj swój komentarz <br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+                    <input type="submit" value="Wyślij formularz" name="" id="">
+                    <input type="reset" value="Wyczyść dane" name="" id="">
+                </form>
+            </div>
+
+            <div id="footer" style="background-color: #FFA500; clear:both; text-align: center; height: 10%;">
+                Copyrigth W3Schools.com
+            </div>
+            
+        </div>
+    </body>
+</html>
