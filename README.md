@@ -16,5 +16,5 @@ This project is a simple web page with form.
 ## Status
 Project is: _finished_ because I sent it to my lecturer ;-)
 
-## Inspiration
-Project inspired by my university lecturer, Mr. Radomski.
+## Source
+This project is from my lecturer, Mr Radomski.
