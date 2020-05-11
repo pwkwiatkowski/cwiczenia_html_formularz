@@ -1,5 +1,5 @@
 # cwiczenia_html_formularz
-> This is my school project for HTML and JavaScript classes.
+> This is my university project for HTML and JavaScript classes.
 
 ## Table of contents
 * [General info](#general-info)
